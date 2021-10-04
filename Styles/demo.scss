@@ -1,0 +1,63 @@
+@import 'reset';
+@import 'variables';
+
+
+.btn{
+    border:none;
+    padding: 15px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 10px;
+}
+.btn-download{
+    @extend .btn;
+    background: chartreuse;
+}
+
+header{
+    background: $header-bgcolor;
+    text-align: $header-text-align;
+}
+
+@mixin para-style($size,$style) {
+    font-size: $size;
+    text-align: $style;
+    background-color: greenyellow;
+
+    
+}
+
+#education h2{
+    @include para-style(20px,right);
+}
+
+nav{
+    margin-top: 5px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                transition: 0.7s;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            a:hover{
+                background-color: greenyellow;
+            }
+        }
+
+        }
+
+}
+
+
+footer{
+    background: $footer-bgcolor;
+    text-align: $footer-text-align;
+}
+body{
+    background: $body-bgcolor;
+}

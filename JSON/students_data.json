@@ -1,0 +1,48 @@
+{
+    "students": [
+      {
+        "name": "Kabir",
+        "middleName": null,
+        "age": 31,
+        "cgpa": 3.44,
+        "isRegistered": true,
+        "languages": [
+          "Bengali",
+          "English",
+          "Hindi"
+        ],
+        "friends": [
+          {
+            "name": "Ashraful",
+            "age": 34
+          },
+          {
+            "name": "Moin Uddin",
+            "age": 34
+          }
+        ]
+      },
+      {
+        "name": "Alamgir",
+        "middleName": null,
+        "age": 33,
+        "cgpa": 3.4,
+        "isRegistered": true,
+        "languages": [
+          "Bengali",
+          "English",
+          "Hindi"
+        ],
+        "friends": [
+          {
+            "name": "Ariful",
+            "age": 34
+          },
+          {
+            "name": "Iqbal Uddin",
+            "age": 34
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn, .btn-download {
+  border: none;
+  padding: 15px 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  margin: 10px;
+}
+
+.btn-download {
+  background: chartreuse;
+}
+
+header {
+  background: #429928;
+  text-align: center;
+}
+
+#education h2 {
+  font-size: 20px;
+  text-align: right;
+  background-color: greenyellow;
+}
+
+nav {
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: greenyellow;
+}
+
+footer {
+  background: #6953e4;
+  text-align: center;
+}
+
+body {
+  background: gray;
+}
+/*# sourceMappingURL=demo.css.map */
